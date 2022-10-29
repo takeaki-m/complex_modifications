@@ -4,7 +4,7 @@
     {
       "description": "q,w to Cmd-Opt-Right(Left) (Select Next(Previous) Tab), 次(前)のタブを表示)",
       "extra_descriptions": [
-        "For Chrome and Safari",
+        "For Chrome, Safari and VSCode(Next/Previous only)",
         "x: tab close",
         "t: tab open"
       ],
@@ -61,7 +61,8 @@
               "type": "frontmost_application_if",
               "bundle_identifiers": [
                 "^com\\.google\\.Chrome$",
-                "^com\\.apple\\.Safari$"
+                "^com\\.apple\\.Safari$",
+                "^com\\.microsoft\\.VSCode$"
               ]
             }
           ]
@@ -95,7 +96,8 @@
               "type": "frontmost_application_if",
               "bundle_identifiers": [
                 "^com\\.google\\.Chrome$",
-                "^com\\.apple\\.Safari$"
+                "^com\\.apple\\.Safari$",
+                "^com\\.microsoft\\.VSCode$"
               ]
             }
           ]
